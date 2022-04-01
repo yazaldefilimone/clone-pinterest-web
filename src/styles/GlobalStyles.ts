@@ -5,6 +5,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition:0.3s;
   }
   html {
     background: var(--white-color);
@@ -15,8 +16,11 @@ export default createGlobalStyle`
     font-family: Helvetica, Arial, sans-serif;
     color: var(--black-create);
     transition: color .2s ease-out;
+    text-decoration: none;
+    font-size: 1.2rem;
   }
-  ul {
+
+  ul{
     list-style: none;
   }
   :root {
