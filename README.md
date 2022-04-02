@@ -2,15 +2,15 @@
 UI Clone - Github
 </h1>
 
-<p align="center">Responsive Github UI Clone (partial) for study purposes.</p>
-<p align="center">Deployed <a href="https://rocketseat-clone-github.netlify.app/">here</a>.</p>
+<p align="center">Responsive Pinterest UI Clone for study purposes.</p>
+<p align="center">Deployed <a href="">here</a>.</p>
 
 <p align="center">
-  <a href="https://github.com/Rocketseat/youtube-clone-github/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/rocketseat/youtube-clone-github?color=%236633cc&logoColor=%236633cc&style=flat" alt="Contributors">
+  <a href="https://github.com/yazaldefilimonepinto/graphs/contributors">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH56eQ_3l0p-g/profile-displayphoto-shrink_200_200/0/1643328299753?e=1654128000&v=beta&t=PxU7uVxGdW9cbvd0uz_ouylgPbBtPQ1daZqw5QEaeOc"  width:"60px" height:"60px" alt="Contributors">
   </a>
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/github/license/rocketseat/youtube-clone-github?color=%236633cc&logo=mit" alt="License">
+    <img src="https://img.shields.io/github/license/yazaldefilimonepinto/clone-pinterest-web?color=%236633cc&logo=mit" alt="License">
   </a>
 </p>
 
@@ -18,22 +18,17 @@ UI Clone - Github
 
 ## Participants
 
-[<img src="https://avatars3.githubusercontent.com/u/10366880?s=460&v=4" width="75px;"/>](https://github.com/guilhermerodz)
+[<img src="https://media-exp1.licdn.com/dms/image/C4D03AQH56eQ_3l0p-g/profile-displayphoto-shrink_200_200/0/1643328299753?e=1654128000&v=beta&t=PxU7uVxGdW9cbvd0uz_ouylgPbBtPQ1daZqw5QEaeOc" width="75px;"/>](https://github.com/yazaldefilimonepinto)
 
-[Guilherme Rodz](https://github.com/guilhermerodz)
+[Yazalde Filimone](https://github.com/yazaldefilimonepinto)
 
 ## Techs
 
-- [x] Fetch API
+- [ ] Fetch API
 - [x] React.js
 - [x] Styled Components
 - [x] TypeScript
 
-## Ideas to implement
-
-- [ ] Use [SWR](https://swr.vercel.app/) as cache invalidation strategy
-- [ ] Fetch data from [GitHub V4 API](https://docs.github.com/en/graphql) (GraphQL instead of REST).
-- [ ] Create new routes with [React Router](https://reactrouter.com/web/guides/quick-start) (e.g. Github Feed, complete Repo page)
 
 ## Starting Dev Environment
 
