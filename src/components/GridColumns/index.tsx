@@ -1,4 +1,4 @@
-import React, { ReactNode, Fragment } from "react";
+import React, { Fragment } from "react";
 
 import { Element, Column } from "./styles";
 
