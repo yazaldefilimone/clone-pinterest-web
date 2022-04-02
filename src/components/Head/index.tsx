@@ -1,15 +1,9 @@
 import React from "react";
-
+import { useTitle } from "../../hooks/useTitle";
 import { Container, SubContainer, Title, WrapperContent } from "./styles";
 
 export const Head = () => {
-  const titles = [
-    "home decoridea",
-    "next look oufit",
-    "Halloween idea",
-    "weeknight dinner idea",
-  ];
-
+  const { titles } = useTitle();
   return (
     <Container>
       <span>Get Your Next</span>
