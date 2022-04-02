@@ -1,12 +1,15 @@
 import React from "react";
 import { HomePage } from "./pages/HomePage";
+import { TitlesProvaider } from "./context/Titles";
 
 import GlobalStyles from "./styles/GlobalStyles";
 function App() {
   return (
     <>
-      <HomePage />
-      <GlobalStyles />
+      <TitlesProvaider>
+        <HomePage />
+        <GlobalStyles />
+      </TitlesProvaider>
     </>
   );
 }
