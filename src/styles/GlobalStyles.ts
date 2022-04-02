@@ -4,8 +4,8 @@ export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
-    transition:0.3s;
   }
   html {
     background: var(--white-color);
@@ -13,7 +13,6 @@ export default createGlobalStyle`
   *, button, input {
     border: 0;
     background: none;
-    font-family: Helvetica, Arial, sans-serif;
     color: var(--black-create);
     transition: color .2s ease-out;
     text-decoration: none;
@@ -31,4 +30,19 @@ export default createGlobalStyle`
     --fade-duration:1s;
     --columns-transition-delay: 0.2s;
   }
+
+
+
+  /* animations */
+
+  /* .animate-after{
+    transform: translateY(40px);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .animate-before{
+    transform: translateY(-40px);
+    opacity: 0;
+    pointer-events: none;
+  } */
 `;
