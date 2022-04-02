@@ -3,10 +3,6 @@ import React, { ReactNode, createContext, useState } from "react";
 interface TitlesProps {
   children: ReactNode;
 }
-type TitlesPropsContext = {
-  title: Array<String>;
-  setTitle: React.Dispatch<React.SetStateAction<String[]>>;
-};
 
 export const TitlesContext = createContext({});
 
