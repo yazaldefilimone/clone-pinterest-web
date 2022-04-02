@@ -34,15 +34,21 @@ export default createGlobalStyle`
 
 
   /* animations */
-
-  /* .animate-after{
+/* 
+  .animate-before{
     transform: translateY(40px);
     opacity: 0;
     pointer-events: none;
   }
-  .animate-before{
+  .animate-after{
     transform: translateY(-40px);
     opacity: 0;
     pointer-events: none;
   } */
+
+  .active {
+    visibility: visible;
+    max-height: unset;
+    pointer-events: auto;
+  }
 `;

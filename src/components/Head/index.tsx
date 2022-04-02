@@ -9,7 +9,7 @@ export const Head = () => {
       <span>Get Your Next</span>
       <SubContainer>
         {titles.map((value, index) => (
-          <WrapperContent>
+          <WrapperContent key={index}>
             <Title className="animate-before"> {value} </Title>
           </WrapperContent>
         ))}

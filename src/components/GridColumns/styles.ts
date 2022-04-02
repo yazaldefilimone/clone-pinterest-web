@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+`;
+
 export const Column = styled.div`
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: 1s;
   &:nth-child(1) {
     margin-top: 0px;
     transition-delay: calc(var(--columns-transition-delay) * 0);

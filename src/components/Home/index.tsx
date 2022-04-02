@@ -1,11 +1,25 @@
-import React, { FunctionComponent } from "react";
+import React, { ReactNode } from "react";
+import { useTitle } from "../../hooks/useTitle";
+import { GridColumns } from "../GridColumns";
+import { HomeComtainer } from "../HomeContainer";
 
-import { Container, SubContainer } from "./styles";
+interface HomeProps {
+  children?: ReactNode;
+  initializeValue: number;
+  classe?: boolean;
+}
 
-export const Home: FunctionComponent = () => {
+export function Home({ initializeValue, classe }: HomeProps) {
+  const { titles } = useTitle();
   return (
-    <Container>
-      <SubContainer>{}</SubContainer>
-    </Container>
+    <>
+      {titles.map((value, index) => {
+        return (
+          <HomeComtainer key={index} classe="grids">
+            <GridColumns isOpen={classe} />
+          </HomeComtainer>
+        );
+      })}
+    </>
   );
-};
+}

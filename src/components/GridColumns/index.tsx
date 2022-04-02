@@ -1,8 +1,14 @@
-import React, { Fragment } from "react";
+import React, { Fragment, ReactNode, useEffect } from "react";
 
 import { Element, Column } from "./styles";
 
-export const GridColumns = () => {
+interface GridColumnsProps {
+  children?: ReactNode;
+  isOpen?: boolean;
+  classe?: boolean;
+}
+
+export const GridColumns = ({ classe, isOpen }: GridColumnsProps) => {
   const elementsComponent = [
     [1, 2, 3, 4, 5],
     [1, 2, 3, 4, 5],
@@ -17,9 +23,11 @@ export const GridColumns = () => {
     <Fragment>
       {elementsComponent.map((value, index) => {
         return (
-          <Column className="animate-before" key={index}>
+          <Column key={index} className="Columns animate-before">
             {value.map((value, index) => {
-              return <Element></Element>;
+              return (
+                <Element key={index} className={classe ? "" : ""}></Element>
+              );
             })}
           </Column>
         );

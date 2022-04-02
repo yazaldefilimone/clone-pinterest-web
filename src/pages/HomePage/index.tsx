@@ -1,8 +1,9 @@
 import React, { Fragment, FunctionComponent } from "react";
-import { Home } from "../../components/Home";
+// import { Home } from "../../components/Home";
 import { Header } from "../../components/Header";
 import { Head } from "../../components/Head";
-
+// import { GridColumns } from "../../components/GridColumns";
+import { Home } from "../../components/Home";
 // import { Container } from './styles';
 
 export const HomePage: FunctionComponent = () => {
@@ -10,7 +11,7 @@ export const HomePage: FunctionComponent = () => {
     <Fragment>
       <Header />
       <Head />
-      <Home />
+      <Home initializeValue={0} />
     </Fragment>
   );
 };

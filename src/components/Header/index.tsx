@@ -16,13 +16,13 @@ export const Header: FunctionComponent = () => {
         <Nav>
           <HeaderList>
             <li>
-              <a href="#">About</a>
+              <a href="https://github.com/yazaldefilimonepinto">About</a>
             </li>
             <li>
-              <a href="#">Bussens</a>
+              <a href="https://github.com/yazaldefilimonepinto">Bussens</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="https://github.com/yazaldefilimonepinto">Blog</a>
             </li>
           </HeaderList>
           <HeaderButton>
