@@ -12,7 +12,8 @@ export const SubContainer = styled.div`
 `;
 export const Logo = styled.a`
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  transition: 0.3s;
   color: var(--primary-color);
   cursor: pointer;
   &:hover {
@@ -28,10 +29,11 @@ export const HeaderList = styled.ul`
   a {
     &:hover {
       color: var(--primary-color);
-      bor
+      transition: 0.3s;
     }
   }
 `;
+
 export const HeaderButton = styled.div`
   > button {
     margin-left: 2rem;

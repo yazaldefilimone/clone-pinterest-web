@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, SubContainer, Title } from "./styles";
+import { Container, SubContainer, Title, WrapperContent } from "./styles";
 
 export const Head = () => {
   const titles = [
@@ -15,7 +15,9 @@ export const Head = () => {
       <span>Get Your Next</span>
       <SubContainer>
         {titles.map((value, index) => (
-          <Title> {value} </Title>
+          <WrapperContent>
+            <Title className="animate-before"> {value} </Title>
+          </WrapperContent>
         ))}
       </SubContainer>
     </Container>
