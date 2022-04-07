@@ -19,15 +19,15 @@ export const Header: FunctionComponent = () => {
               <a href="https://github.com/yazaldefilimonepinto">About</a>
             </li>
             <li>
-              <a href="https://github.com/yazaldefilimonepinto">Bussens</a>
+              <a href="https://github.com/yazaldefilimonepinto">Business</a>
             </li>
             <li>
               <a href="https://github.com/yazaldefilimonepinto">Blog</a>
             </li>
           </HeaderList>
           <HeaderButton>
-            <button>login</button>
-            <button>sinup</button>
+            <button>Login</button>
+            <button>Signup</button>
           </HeaderButton>
         </Nav>
       </SubContainer>
