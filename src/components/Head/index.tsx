@@ -1,6 +1,6 @@
-import React from "react";
-import { useTitle } from "../../hooks/useTitle";
-import { Container, SubContainer, Title, WrapperContent } from "./styles";
+import React from 'react';
+import { useTitle } from '../../hooks/useTitle';
+import { Container, SubContainer, Title, WrapperContent } from './styles';
 
 export const Head = () => {
   const { titles } = useTitle();
@@ -10,7 +10,7 @@ export const Head = () => {
       <SubContainer>
         {titles.map((value, index) => (
           <WrapperContent key={index}>
-            <Title className="animate-before"> {value} </Title>
+            <Title className="heading animate-before"> {value} </Title>
           </WrapperContent>
         ))}
       </SubContainer>

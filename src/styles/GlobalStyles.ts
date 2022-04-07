@@ -34,7 +34,7 @@ export default createGlobalStyle`
 
 
   /* animations */
-/* 
+
   .animate-before{
     transform: translateY(40px);
     opacity: 0;
@@ -44,7 +44,7 @@ export default createGlobalStyle`
     transform: translateY(-40px);
     opacity: 0;
     pointer-events: none;
-  } */
+  }
 
   .active {
     visibility: visible;

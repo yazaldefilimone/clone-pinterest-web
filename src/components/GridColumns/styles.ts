@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -43,8 +43,11 @@ export const Column = styled.div`
   }
 `;
 
-export const Element = styled.div`
+export const Element: any = styled.div`
   background-color: red;
+  background-image: url(${(props: any) => props.bg});
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 236px;
   height: 350px;
   border-radius: 15px;
