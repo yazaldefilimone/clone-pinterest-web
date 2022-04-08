@@ -74,7 +74,7 @@ export function Home({ initializeValue, classe }: HomeProps) {
   React.useEffect(() => {
     const propsSetup = {
       initalScreen: 0,
-      times: 2000,
+      times: 4000,
       exitdelay: 200 * 7,
     };
     SetupAnimate(propsSetup);
